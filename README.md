@@ -5,7 +5,7 @@ Node.js 22+ and discord.js. Ticket state persists in `data/tickets.json`; run on
 ## Setup
 
 1. Run `npm ci`.
-2. Copy `.env.example` to `.env` and securely set your bot token, application ID, and server ID. Never commit the token.
+2. Copy `.env.example` to `.env` and securely set your bot token, application ID. The server ID defaults to `1442304961458475082`; optionally set `GUILD_ID` to override it. Never commit the token.
 3. Copy `config.example.json` to `config.json`. Fill all role/category IDs, the ticket panel channel, and a private transcript channel. Ping roles may be separate from the access rank roles.
 4. In the Discord developer portal enable **Message Content Intent**. Invite with `bot` and `applications.commands` scopes. Give the bot View Channels, Send Messages, Embed Links, Attach Files, Read Message History, Manage Channels, and Manage Roles. Position its role above the roles it manages. Avoid Administrator for staff roles if ticket privacy is required.
 5. Run `npm run register`, then `npm start`. An administrator with Manage Server can use `/ticket-panel` to post the embedded creation panel.
