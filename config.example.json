@@ -1,0 +1,64 @@
+{
+  "panelChannelId": "1442304962754383890",
+  "transcriptChannelId": "",
+  "ranks": [
+    {
+      "key": "administration",
+      "name": "Administration",
+      "roleId": "1442304961907134467"
+    },
+    {
+      "key": "supervisor",
+      "name": "Supervisor",
+      "roleId": "1561297487317180458"
+    },
+    {
+      "key": "internalAffairs",
+      "name": "Internal Affairs",
+      "roleId": "1442304961923907649"
+    },
+    {
+      "key": "iaSupervisor",
+      "name": "IA Supervisor",
+      "roleId": ""
+    },
+    {
+      "key": "iaDirectives",
+      "name": "IA Directives",
+      "roleId": ""
+    },
+    {
+      "key": "management",
+      "name": "Management",
+      "roleId": "1442304961936625703"
+    },
+    {
+      "key": "seniorManagement",
+      "name": "Senior High Ranks",
+      "roleId": "1442304961936625701"
+    },
+    {
+      "key": "directives",
+      "name": "Directives",
+      "roleId": "1442304961944752315"
+    },
+    {
+      "key": "ownership",
+      "name": "Ownership",
+      "roleId": "1442304961957462140"
+    }
+  ],
+  "categories": {
+    "general": "",
+    "report": "",
+    "ia": "",
+    "shr": "",
+    "ownership": ""
+  },
+  "pingRoles": {
+    "general": "1442304961907134467",
+    "report": "1561297487317180458",
+    "ia": "1442304961923907649",
+    "shr": "1442304961936625703"
+  }
+}

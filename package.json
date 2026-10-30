@@ -1,0 +1,1 @@
+{"name":"discord-ticket-system","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node --env-file-if-exists=.env src/bot.js","register":"node --env-file-if-exists=.env src/register.js","test":"node --test"},"engines":{"node":">=22"},"dependencies":{"discord.js":"^14.22.1"}}
